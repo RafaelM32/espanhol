@@ -164,7 +164,7 @@ function revelarGabarito(questao){
 
 function addNumberTittle(numero){
     console.log(numero)
-    titulo.innerText = "Gerador de ENEM INGLES " + numero
+    titulo.innerText = "Gerador de ENEM ESPANHOL " + numero
 }
 
 function getRandomIntInclusive(min, max) {
