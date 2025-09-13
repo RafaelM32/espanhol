@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+
+.titulo{
+    text-align: center;
+    font-family: "Bitcount Grid Double", system-ui;
+    margin-bottom: vh;
+    border-style: dashed;
+}
+
+.botoes{
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 5vh;
+    display: flex;
+    gap: 10px;
+}
+.botao{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: bisque;
+    border-style: dotted;
+    border-radius: 50%;
+    text-decoration: none;
+}
+a.botao{
+    padding: 10px;
+    padding-top: 6%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.botao:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+.teste{
+    width: 300px;
+    height: 150px;
+    background-color: antiquewhite;
+}
+
+.botao.gabarito{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.textos_apoio{
+    text-align: center;
+}
+.fonte{
+    font-size: small;
+    text-align: right;
+}
+
+.alternativas{
+    margin-left: 30%;
+}
+
+.alternativa{
+    cursor: pointer;
+}
+
+.alternativa.correta{
+    color: green;
+}
+
+.escolha{
+    text-decoration: underline;
+}
+.proxima, .anterior{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: 6%;
+}
+
+img{
+    margin-top: 1%;
+}
